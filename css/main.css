@@ -1,0 +1,43 @@
+.navbar-static-top {
+    background-color: hsla(0, 0%, 0%, 0);
+}
+
+body {
+
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-image: url(http://adventureblog.nationalgeographic.com/files/2012/10/Run21-590x391.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size:  contain;
+  margin: 50px !important;
+  margin-top: 10px;
+}
+
+fieldset {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  min-width: px;
+
+}
+
+
+
+h1.header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+
+}
+
+h2.header {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+
+}
+
+.navbar-fixed-bottom {
+  text-align: center;
+}
+
