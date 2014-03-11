@@ -2,39 +2,52 @@
     background-color: hsla(0, 0%, 0%, 0);
 }
 
-body {
+html, body {
 
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  background-image: url(http://adventureblog.nationalgeographic.com/files/2012/10/Run21-590x391.jpg);
-  background-position: right;
+  background: url(http://newsroom.gore-tex.eu/wp-content/uploads/2011/04/Trailrun_Camp_KlausFengler.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+
+/*  background-position: right;
   background-repeat: no-repeat;
   background-size:  contain;
   margin: 50px !important;
-  margin-top: 10px;
+  margin-top: 10px;*/
 }
 
 fieldset {
   padding: 0px;
   margin: 0px;
   border: 0px;
-  min-width: px;
+  min-width: 0px;
+
+}
+
+legend {
+  font-size: 18px;
+  color: hsla(360, 84%, 98%, 1);
 
 }
 
 
-
 h1.header {
-  font-style: normal;
+  font-style: italic;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
+  color: hsla(360, 84%, 98%, 1);
 
 }
 
 h2.header {
   font-style: italic;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
+  color: hsla(360, 84%, 98%, 1);
+}
 
+.form-group {
+  color: hsla(360, 84%, 98%, 1);
 }
 
 .navbar-fixed-bottom {
